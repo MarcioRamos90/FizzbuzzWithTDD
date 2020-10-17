@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "module": "commonjs",
+        "baseUrl": "src",
+        "rootDir": "src",
+        "paths": {
+            "@/*": [
+                "*"
+            ]
+        }
+    }
+}

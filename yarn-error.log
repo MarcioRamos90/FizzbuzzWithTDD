@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/marcioramos/.nvm/versions/node/v13.11.0/bin/node /usr/local/bin/yarn add -D typescript @type/node
+
+PATH: 
+  /Users/marcioramos/.nvm/versions/node/v13.11.0/bin:/Users/marcioramos/.rvm/gems/ruby-2.6.3/bin:/Users/marcioramos/.rvm/gems/ruby-2.6.3@global/bin:/Users/marcioramos/.rvm/rubies/ruby-2.6.3/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/marcioramos/.nvm/versions/node/v13.11.0/bin:/Users/marcioramos/.rvm/gems/ruby-2.6.3/bin:/Users/marcioramos/.rvm/gems/ruby-2.6.3@global/bin:/Users/marcioramos/.rvm/rubies/ruby-2.6.3/bin:/usr/local/sbin:/Users/marcioramos/Library/Android/sdk/tools:/Users/marcioramos/Library/Android/sdk/tools/bin:/Users/marcioramos/Library/Android/sdk/platform-tools:/Users/marcioramos/Library/Android/sdk/build-tools/29.0.3:/Users/marcioramos/.rvm/bin:~/development/flutter/bin:/Applications/Firefox.app/Contents/MacOS/firefox:/Users/marcioramos/Library/Android/sdk/tools:/Users/marcioramos/Library/Android/sdk/tools/bin:/Users/marcioramos/Library/Android/sdk/platform-tools:/Users/marcioramos/Library/Android/sdk/build-tools/29.0.3:~/development/flutter/bin:/Applications/Firefox.app/Contents/MacOS/firefox
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  13.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@type%2fnode: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "fizzbuzz",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Marcio Ramos",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
